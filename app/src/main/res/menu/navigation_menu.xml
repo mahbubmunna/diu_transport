@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/schedule"
+            android:icon="@mipmap/ic_schedule_black_24dp"
+            android:title="@string/nav_schedule" />
+
+        <item
+            android:id="@+id/trace"
+            android:icon="@mipmap/ic_location_on_black_24dp"
+            android:title="@string/nav_trace" />
+        <item
+            android:id="@+id/manage"
+            android:icon="@mipmap/ic_settings_applications_black_24dp"
+            android:title="Manage Schedule">
+        </item>
+    </group>
+
+    />
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@mipmap/ic_feedback_black_24dp"
+                android:title="@string/nav_feedback" />
+            <item
+                android:id="@+id/g_plus"
+                android:icon="@mipmap/google_plus"
+                android:title="@string/google_plus" />
+
+            <item
+                android:id="@+id/about"
+                android:icon="@mipmap/ic_info_black_24dp"
+                android:title="@string/nav_about"/>
+        </menu>
+
+    </item>
+
+
+
+
+
+
+</menu>

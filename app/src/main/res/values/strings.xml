@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DIU Transport</string>
+    <string name="admin_level">Admin</string>
+
+    <!-- Category Names for Bus Route -->
+    <string name="category_cnb">Others</string>
+    <string name="category_pc2mc">PC-MC</string>
+    <string name="category_pc2uc">PC-UC</string>
+    <string name="category_mc2pc">MC-PC</string>
+    <string name="category_uc2pc">UC-PC</string>
+
+    <!-- Category Names for Admin -->
+    <string name="show_schedule">Schedules</string>
+    <string name="add_schedule">Add Schedule</string>
+
+
+    <!--Nav Strings-->
+    <string name="nav_trace">Trace A Bus</string>
+    <string name="nav_schedule">Bus Schedules</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="google_plus">Google+</string>
+    <string name="nav_about">About</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--Admin Add Fragment-->
+    <string name="add_bus_name">Bus Name</string>
+    <string name="add_bus_time">Bus Time</string>
+    <string name="add_bus_route">Bus Route</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="schedule_tile">Available Schedule</string>
+    <string name="add_schedule_tile">Add a new Schedule</string>
+    
+    <string name="login_user">Login with Google</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

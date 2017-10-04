@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "293941116880",
+    "firebase_url": "https://diu-bus.firebaseio.com",
+    "project_id": "diu-bus",
+    "storage_bucket": "diu-bus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293941116880:android:604c3176de205665",
+        "android_client_info": {
+          "package_name": "com.moonssoft.diubus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293941116880-ctp952hnnuf3tnjhgd6hgt81b617p5nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moonssoft.diubus",
+            "certificate_hash": "22c4cc5fcfe4dcdc47c9427743405ea3e9168b68"
+          }
+        },
+        {
+          "client_id": "293941116880-odfm5a0qdum0d0s0dcpp5chdtrg1qb8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfASTw8m3udPNRx_1h6BwJLLip3RW0MMc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293941116880-odfm5a0qdum0d0s0dcpp5chdtrg1qb8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

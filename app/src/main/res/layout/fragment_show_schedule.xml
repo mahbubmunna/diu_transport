@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_show_schedule"
+        android:layout_width="match_parent"
+        android:background="@color/deep_orange"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/tan_background"
+        android:padding="12dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:text="Available Schedule"/>
+
+    <LinearLayout
+        android:id="@+id/back_show_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deep_orange"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/text1_show_schedule"
+            style="@style/AdminAddTitle"
+            android:gravity="center"
+            android:text="From" />
+        <TextView
+            style="@style/AdminAddTitle"
+            android:id="@+id/text2_show_schedule"
+            android:paddingLeft="15dp"
+            android:text="To" />
+        <TextView
+            style="@style/AdminAddTitle"
+            android:id="@+id/text3_show_schedule"
+            android:text="Time" />
+        <TextView
+            style="@style/AdminAddTitle"
+            android:id="@+id/text4_show_schedule"
+            android:text="Bus" />
+    </LinearLayout>
+
+    <ListView
+        android:paddingLeft="22dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view_schedule">
+
+    </ListView>
+
+</LinearLayout>
